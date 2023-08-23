@@ -27,7 +27,6 @@ endif
 # These may be compressed, as they're largely here for fallback or less-common language needs.
 PRODUCT_COPY_FILES += \
     external/moztt/AndroidFonts/DroidNaskhUI-Regular$(TTF_EXT):system/fonts/DroidNaskhUI-Regular$(TTF_EXT) \
-    external/moztt/AndroidFonts/DroidSans$(TTF_EXT):system/fonts/DroidSans$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSansHebrew-Regular$(TTF_EXT):system/fonts/DroidSansHebrew-Regular$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSansHebrew-Bold$(TTF_EXT):system/fonts/DroidSansHebrew-Bold$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSansArmenian$(TTF_EXT):system/fonts/DroidSansArmenian$(TTF_EXT) \
@@ -35,19 +34,16 @@ PRODUCT_COPY_FILES += \
     external/moztt/AndroidFonts/DroidSansEthiopic-Bold$(TTF_EXT):system/fonts/DroidSansEthiopic-Bold$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSansFallbackFull$(TTF_EXT):system/fonts/DroidSansFallback$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSansGeorgian$(TTF_EXT):system/fonts/DroidSansGeorgian$(TTF_EXT) \
-    external/moztt/AndroidFonts/DroidSansMono$(TTF_EXT):system/fonts/DroidSansMono$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSerif-Regular$(TTF_EXT):system/fonts/DroidSerif-Regular$(TTF_EXT) \
     external/moztt/AndroidFonts/DroidSerif-Bold$(TTF_EXT):system/fonts/DroidSerif-Bold$(TTF_EXT) \
     external/moztt/AndroidFonts/MTLmr3m$(TTF_EXT):system/fonts/MTLmr3m$(TTF_EXT) \
     external/moztt/AndroidFonts/MTLc3m$(TTF_EXT):system/fonts/MTLc3m$(TTF_EXT) \
-    external/moztt/Noto/NotoColorEmoji.ttf:system/fonts/NotoColorEmoji.ttf \
     $(NULL)
 
 # MozTT fonts that we don't compress, because there's relatively little gain to be had
 # and/or because they're primary UI fonts that we want instantly available.
 PRODUCT_COPY_FILES += \
     external/moztt/Roboto-20120823/Roboto-Bold.ttf:system/fonts/Roboto-Bold.ttf \
-    external/moztt/Roboto-20120823/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
     external/moztt/Open-sans/OpenSans-Bold.ttf:system/fonts/OpenSans-Bold.ttf \
     external/moztt/Open-sans/OpenSans-Light.ttf:system/fonts/OpenSans-Light.ttf \
     external/moztt/Open-sans/OpenSans-Regular.ttf:system/fonts/OpenSans-Regular.ttf \
@@ -60,10 +56,6 @@ PRODUCT_COPY_FILES += \
     external/moztt/CharisSILCompact-4.114/CharisSILCompact-R$(TTF_EXT):system/fonts/CharisSILCompact-R$(TTF_EXT) \
     external/moztt/DDCUchen-1.000/DDC_Uchen$(TTF_EXT):system/fonts/DDC_Uchen$(TTF_EXT) \
     external/moztt/DroidSans/DroidSansThai$(TTF_EXT):system/fonts/DroidSansThai$(TTF_EXT) \
-    external/moztt/Noto/NotoSansKhmerUI-Bold$(TTF_EXT):system/fonts/NotoSansKhmerUI-Bold$(TTF_EXT) \
-    external/moztt/Noto/NotoSansKhmerUI-Regular$(TTF_EXT):system/fonts/NotoSansKhmerUI-Regular$(TTF_EXT) \
-    external/moztt/Noto/NotoSansLao-Bold$(TTF_EXT):system/fonts/NotoSansLao-Bold$(TTF_EXT) \
-    external/moztt/Noto/NotoSansLao-Regular$(TTF_EXT):system/fonts/NotoSansLao-Regular$(TTF_EXT) \
     external/moztt/Noto/NotoSansSinhala-Bold$(TTF_EXT):system/fonts/NotoSansSinhala-Bold$(TTF_EXT) \
     external/moztt/Noto/NotoSansSinhala-Regular$(TTF_EXT):system/fonts/NotoSansSinhala-Regular$(TTF_EXT) \
     external/moztt/Pyidaungsu-1.8.3/Pyidaungsu-Regular$(TTF_EXT):system/fonts/Pyidaungsu-Regular$(TTF_EXT) \
